@@ -590,7 +590,7 @@ export default function FinancialRiskCaseStudy() {
               <h3 className="font-bold text-slate-900">All Case Studies</h3>
             </Link>
             <Link
-              href="/case-studies/epam-rag-knowledge-assistant"
+              href="/case-studies/internal-rag-knowledge-assistant"
               className="p-6 bg-slate-50 border border-slate-200 rounded-lg hover:border-blue-400 hover:shadow-md transition-all"
             >
               <p className="text-sm text-slate-500 mb-2">Next →</p>

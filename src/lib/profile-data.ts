@@ -30,7 +30,7 @@ export const profileData = {
   ],
 
   aboutSummary:
-    "I combine deep full-stack engineering expertise with product instincts and system design thinking. I've led teams shipping production systems at scale, integrated cutting-edge LLM workflows into enterprise products, and mentored engineers to raise their game. My work spans high-traffic e-commerce (Sephora, Best Buy), fintech (Validus), healthcare (Cross Country), and financial services (Northern Trust).",
+    "I combine deep full-stack engineering expertise with product instincts and system design thinking. I've led teams shipping production systems at scale, integrated cutting-edge LLM workflows into enterprise products, and mentored engineers to raise their game. My work spans high-traffic e-commerce (Sephora, Best Buy), fintech, healthcare (Cross Country), and financial services (Northern Trust).",
 
   caseStudies: [
     {
@@ -38,7 +38,7 @@ export const profileData = {
       title: "Financial Risk Analyst Report Automation",
       summary:
         "GPT-4o + LLM tool-calling workflow for automating financial risk reporting with guardrails and human review.",
-      status: "Coming soon",
+      status: "Published",
       tags: [
         "OpenAI GPT-4o",
         "Tool Calling",
@@ -67,39 +67,39 @@ export const profileData = {
       company: "Validus Risk Management",
     },
     {
-      id: "epam-rag-knowledge-assistant",
-      title: "Internal EPAM RAG Knowledge Assistant",
+      id: "internal-rag-knowledge-assistant",
+      title: "Internal RAG Knowledge Assistant",
       summary:
-        "Retrieval-augmented knowledge assistant using embeddings, semantic retrieval, prompt engineering, and trusted internal data.",
-      status: "Coming soon",
+        "Retrieval-augmented knowledge assistant using embeddings, semantic retrieval, vector search, and LLM re-ranking for trusted internal knowledge discovery.",
+      status: "Published",
       tags: [
         "RAG",
         "Embeddings",
         "Semantic Search",
-        "OpenAI",
-        "Next.js",
-        "Node.js",
+        "Vector Retrieval",
+        "LLM Re-ranking",
       ],
       businessProblem:
-        "Engineers struggled to find internal knowledge across scattered wikis, design docs, and runbooks. Onboarding was slow, and institutional knowledge was fragmented.",
+        "Teams struggled to find internal knowledge across scattered documents, wikis, resumes, and project specs. Keyword search was brittle when domain concepts had multiple phrasings. Onboarding was slow.",
       techApproach:
-        "Built a Next.js + Node.js RAG system using OpenAI embeddings to index internal documentation. Implemented semantic search with prompt engineering to surface relevant knowledge, guardrails to prevent hallucination, and confidence scoring.",
+        "Built a Next.js + Node.js RAG platform using embeddings to enable semantic search, followed by LLM re-ranking for precision. Integrated two-stage retrieval, deterministic scoring, permission-aware filtering, and structured validation.",
       whatBuilt: [
-        "OpenAI embedding-based document indexing",
-        "Semantic retrieval pipeline with ranking",
-        "Chat-like interface for knowledge discovery",
-        "Prompt engineering for accuracy and context",
-        "Guardrails to prevent out-of-bounds answers",
+        "Two-stage RAG: vector retrieval + LLM re-ranking",
+        "Semantic chunking to preserve context and meaning",
+        "Permission-aware, tenant-isolated document search",
+        "LLM-generated explanations with evidence citations",
+        "Fallback to keyword/BM25 search for reliability",
       ],
       techStack: [
         "Next.js",
         "React",
         "Node.js",
         "TypeScript",
-        "OpenAI Embeddings",
+        "Embeddings API",
         "Vector Store",
+        "PostgreSQL",
       ],
-      company: "EPAM Systems",
+      company: "Tech Lead / Full-Stack",
     },
     {
       id: "ai-sales-cockpit",
@@ -133,7 +133,7 @@ export const profileData = {
         "BFF Pattern",
         "AI/ML Scoring",
       ],
-      company: "EPAM Systems",
+      company: "Tech Lead / Full-Stack",
     },
   ],
 
@@ -141,7 +141,7 @@ export const profileData = {
     {
       company: "Validus Risk Management",
       title: "Senior Software Engineer",
-      period: "2023–2024",
+      period: "2025–2026",
       highlights: [
         "Architected real-time financial trading tools using Node.js + Express microservices.",
         "Designed hybrid client-state architecture with Zustand + Redux for complex trading UIs.",
@@ -153,7 +153,7 @@ export const profileData = {
     {
       company: "EPAM Systems",
       title: "Senior Software Engineer",
-      period: "2020–2023",
+      period: "2021–2025",
       highlights: [
         "Ticketmaster: Architected secure payment flows and BFF architecture in React + Node.js, PCI-oriented integrations.",
         "Cross Country Healthcare: Led a pod building SSR-optimized React/Next.js forms backed by AWS Lambda APIs.",
@@ -176,7 +176,7 @@ export const profileData = {
     {
       company: "Northern Trust",
       title: "Senior Software Developer",
-      period: "2018–2019",
+      period: "Jan 2019 - June 2019",
       highlights: [
         "Built real-time data visualization dashboard using React + AG Grid.",
         "Migrated Java API workloads to AWS Lambda, reducing operational overhead.",

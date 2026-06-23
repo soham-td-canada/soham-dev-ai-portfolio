@@ -12,7 +12,7 @@ export default function AISalesCockpitCaseStudy() {
     <CaseStudyPage
       title="AI Sales Cockpit"
       status="Live / In progress"
-      company="EPAM Systems"
+      company="Tech Lead / Full-Stack"
       businessProblem="Sales teams lacked a single source of truth for account health, risk signals, and recommended actions. Decision-making was slow and reactive. Account managers spent hours aggregating data from multiple systems."
       techApproach="Designed a React + Next.js UI backed by a BFF that aggregates account data, runs AI-powered analysis, and surfaces recommendations. Focuses on actionable insights over raw data. Combines real-time data with ML-powered predictions."
       whatBuilt={[
