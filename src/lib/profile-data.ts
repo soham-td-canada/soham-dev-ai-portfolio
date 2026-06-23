@@ -4,7 +4,7 @@ export const profileData = {
   location: "Vancouver, BC, Canada",
   email: "soham.software.canada@gmail.com",
   github: "https://github.com/soham-td-canada",
-  linkedin: "https://linkedin.com/in/soham-chakraborty",
+  linkedin: "https://www.linkedin.com/in/soham-c-27510011b/",
 
   headline:
     "Senior / Lead Full-Stack Engineer building AI-powered products.",

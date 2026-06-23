@@ -25,7 +25,7 @@ export function CTASection({ heading }: CTASectionProps) {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/soham-chakraborty"
+              href="https://www.linkedin.com/in/soham-c-27510011b/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 border-2 border-white text-white font-medium rounded-lg hover:bg-white hover:text-slate-900 transition-colors"

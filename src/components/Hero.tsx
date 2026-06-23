@@ -40,12 +40,13 @@ export function Hero({ headline, subheadline, techBadges }: HeroProps) {
             >
               View GitHub
             </a>
-            <a
-              href="mailto:soham.software.canada@gmail.com"
-              className="px-8 py-3 border-2 border-slate-300 text-slate-900 font-medium rounded-lg hover:border-slate-400 hover:bg-slate-50 transition-colors"
+            <button
+              disabled
+              title="Resume coming soon"
+              className="px-8 py-3 border-2 border-slate-300 text-slate-400 font-medium rounded-lg bg-slate-50 cursor-not-allowed"
             >
-              Download Resume
-            </a>
+              Resume (Coming Soon)
+            </button>
           </div>
 
           {/* Tech Badges */}
