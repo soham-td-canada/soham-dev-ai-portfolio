@@ -139,6 +139,18 @@ export const profileData = {
 
   experience: [
     {
+      company: "IGMG Consulting (Self-employed)",
+      title: "Freelance Senior Software Developer: Agentic AI & Full-Stack",
+      period: "Mar 2026–Present",
+      highlights: [
+        "Built a document digitization app for Jolly Engineering Industries, an electrical panel maker in Kolkata. Scanned RFQs, quotes and invoices flow through S3, SQS and Textract, with LLM extraction into validated records in PostgreSQL, so the team can search them instead of digging through paper files.",
+        "Added an AI chatbot using tool calling and RAG that answers questions from the company's own documents.",
+        "Owned the full stack: Next.js front end, NestJS APIs, the AWS setup, and ongoing support.",
+        "Part-time AI training work (Data Annotation): compared and rated model-generated code against rubrics, wrote explanations for each judgement, and flagged quality issues.",
+        "Earned the IIBA-AAC and CSPO certifications while working toward an M.S. in Artificial Intelligence.",
+      ],
+    },
+    {
       company: "Validus Risk Management",
       title: "Senior Software Engineer",
       period: "2025–2026",
